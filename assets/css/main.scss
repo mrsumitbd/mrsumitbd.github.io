@@ -24,59 +24,61 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* --- 1. Style the BUTTONS (Bib & PDF) --- */
-/* We target 'a.bibtex' specifically so we don't accidentally style the hidden box */
+/* --- 1. UNIFORM BUTTON STYLES (BIB & PDF) --- */
+/* We use !important here to override the theme's default black button style */
 .bibliography a.bibtex, 
 .bibliography a[href$=".pdf"] {
-    display: inline-block;
-    font-weight: 400;
-    color: #212529;
-    background-color: transparent;
-    border: 1px solid #212529;
-    padding: 0.2rem 0.5rem;
-    font-size: 0.8rem;
-    border-radius: 0.2rem;
-    text-decoration: none;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    cursor: pointer;
+    display: inline-block !important;
+    font-weight: 400 !important;
+    color: #212529 !important;
+    background-color: transparent !important;
+    border: 1px solid #212529 !important;
+    box-shadow: none !important;
+    padding: 0.2rem 0.5rem !important;
+    font-size: 0.8rem !important;
+    border-radius: 0.2rem !important;
+    text-decoration: none !important;
+    margin-right: 5px !important;
+    margin-bottom: 5px !important;
+    cursor: pointer !important;
     text-align: center;
     vertical-align: middle;
 }
 
-/* Hover effects */
+/* Hover effects (Both turn black on hover) */
 .bibliography a.bibtex:hover, 
 .bibliography a[href$=".pdf"]:hover {
-    background-color: #212529;
+    background-color: #212529 !important;
     color: #fff !important;
-    text-decoration: none;
+    border-color: #212529 !important;
+    text-decoration: none !important;
 }
 
-/* --- 2. Style the CONTENT BOX (The hidden part) --- */
-/* We target 'div.bibtex'. We do NOT touch 'display' property here, 
-   letting the theme's JavaScript handle the hiding/showing. */
+/* --- 2. THE BIBTEX CODE BOX (Hidden by default) --- */
+/* We target div.bibtex to style the container when it opens */
 div.bibtex {
     margin-top: 10px;
     background-color: #f8f9fa;
     border-radius: 5px;
     padding: 10px;
     
-    /* WIDTH FIX: Makes the box 10% wider than the text column */
-    width: 110%; 
-    margin-left: -5%; 
+    /* Width Fix: Stretches the box slightly wider than the text column */
+    width: 105%; 
+    margin-left: -2.5%; 
 }
 
-/* --- 3. Style the Code Text --- */
+/* --- 3. THE CODE TEXT FORMATTING --- */
+/* Forces line breaks and prevents horizontal scrolling */
 div.bibtex pre {
-    white-space: pre-wrap !important; /* Force line breaks */
-    word-wrap: break-word !important; /* Prevent horizontal scrolling */
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
     font-family: monospace;
     font-size: 0.8rem;
     margin: 0;
     overflow-x: auto;
 }
 
-/* --- 4. Cleanup --- */
+/* --- 4. CLEANUP --- */
 /* Hides empty abbreviation boxes if they appear */
 div.abbr:empty {
     display: none;
