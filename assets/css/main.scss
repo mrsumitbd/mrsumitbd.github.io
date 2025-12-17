@@ -86,3 +86,21 @@ div.bibtex pre {
 div.abbr:empty {
     display: none;
 }
+
+/* --- FIX SOCIAL ICONS SIZE --- */
+.social-icon, .contact-icon {
+    font-size: 1.5rem !important;
+    width: 1.5rem !important;
+    color: #6c757d !important;
+    margin: 0 10px !important;
+    text-decoration: none !important;
+}
+
+.social-icon:hover, .contact-icon:hover {
+    color: #000 !important;
+}
+
+/* Hide the weird "You can even add a little note" text */
+.contact-note {
+    display: none;
+}
