@@ -52,12 +52,12 @@ For software engineers and tool builders, this changes how we build intelligent 
 <details>
   <summary><strong>Cite the paper</strong></summary>
   <br>
-  <pre><code>@inproceedings{rahman2019natural,
-  title={Natural software revisited},
-  author={Rahman, Musfiqur and Palani, Dharani and Rigby, Peter C},
-  booktitle={2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)},
-  pages={37--48},
-  year={2019},
+  <pre><code>@inproceedings{rahman2019natural,<br>
+  title={Natural software revisited},<br>
+  author={Rahman, Musfiqur and Palani, Dharani and Rigby, Peter C},<br>
+  booktitle={2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)},<br>
+  pages={37--48},<br>
+  year={2019},<br>
   organization={IEEE}
 }</code></pre>
 </details>
