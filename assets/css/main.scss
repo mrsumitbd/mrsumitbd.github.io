@@ -24,15 +24,17 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* Force BibTeX to respect line breaks */
-.bibtex {
+/* FORCE BibTeX Line Breaks - Target the 'pre' tag specifically */
+div.bibtex pre {
     white-space: pre-wrap !important;
+    word-break: break-all !important; /* Force break on long text */
     font-family: monospace;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     background-color: #f8f9fa;
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
-} /* <--- THIS WAS MISSING */
+    margin: 0;
+}
 
 /* Force the PDF link in bibliography to look like a button */
 .bibliography a[href$=".pdf"] {
