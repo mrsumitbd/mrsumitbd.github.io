@@ -24,55 +24,60 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* --- 1. Fix the Buttons (PDF & BibTeX) --- */
-/* Matches both the PDF button and the 'Bib' button to look the same */
-.bibliography a[href$=".pdf"], 
-.bibliography a.bibtex {
+/* --- 1. Style the BUTTONS (Bib & PDF) --- */
+/* We target 'a.bibtex' specifically so we don't accidentally style the hidden box */
+.bibliography a.bibtex, 
+.bibliography a[href$=".pdf"] {
     display: inline-block;
     font-weight: 400;
     color: #212529;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
     background-color: transparent;
     border: 1px solid #212529;
-    padding: 0.25rem 0.5rem;
-    font-size: 0.875rem;
-    line-height: 1.5;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
     border-radius: 0.2rem;
     text-decoration: none;
     margin-right: 5px;
     margin-bottom: 5px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
 }
 
-/* Hover effects for buttons */
-.bibliography a[href$=".pdf"]:hover, 
-.bibliography a.bibtex:hover {
-    color: #fff !important;
+/* Hover effects */
+.bibliography a.bibtex:hover, 
+.bibliography a[href$=".pdf"]:hover {
     background-color: #212529;
+    color: #fff !important;
     text-decoration: none;
 }
 
-/* --- 2. Fix the BibTeX Code Box (Formatting & Width) --- */
-/* Target the inner text to wrap lines, but DO NOT force display:block (keeps it collapsible) */
-.bibtex pre {
-    white-space: pre-wrap !important;
-    word-wrap: break-word !important;
-    font-family: monospace;
-    font-size: 0.8rem;
-    background-color: #f8f9fa;
-    padding: 15px;
-    border-radius: 5px;
+/* --- 2. Style the CONTENT BOX (The hidden part) --- */
+/* We target 'div.bibtex'. We do NOT touch 'display' property here, 
+   letting the theme's JavaScript handle the hiding/showing. */
+div.bibtex {
     margin-top: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 10px;
     
-    /* WIDTH FIX: Negative margins to stretch beyond the text column if needed */
-    width: 100%;
-    min-width: 100%;
-    box-sizing: border-box;
+    /* WIDTH FIX: Makes the box 10% wider than the text column */
+    width: 110%; 
+    margin-left: -5%; 
 }
 
-/* --- 3. Hide the Grey Box Artifacts --- */
-/* Sometimes an empty container appears above; this hides empty abbrevs */
+/* --- 3. Style the Code Text --- */
+div.bibtex pre {
+    white-space: pre-wrap !important; /* Force line breaks */
+    word-wrap: break-word !important; /* Prevent horizontal scrolling */
+    font-family: monospace;
+    font-size: 0.8rem;
+    margin: 0;
+    overflow-x: auto;
+}
+
+/* --- 4. Cleanup --- */
+/* Hides empty abbreviation boxes if they appear */
 div.abbr:empty {
     display: none;
 }
