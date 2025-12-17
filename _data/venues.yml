@@ -1,9 +1,44 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# --- Conferences ---
+"ICSE":
+  color: "#003366" # Deep Navy (The flagship conference)
+  
+"FSE":
+  color: "#663399" # Deep Purple (Distinguished, Foundation)
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ASE":
+  color: "#C70039" # Crimson Red (Automated/Robotic feel)
 
-"Vision":
-  color: "#009f36"
+"MSR":
+  color: "#4682B4" # Steel Blue (Repositories/Storage)
+
+"ICSME":
+  color: "#008B8B" # Dark Cyan (Maintenance/Evolution cycle)
+
+"SANER":
+  color: "#800000" # Maroon (Reengineering/Brick structure)
+
+"CAIN":
+  color: "#D63384" # Neon Pink (AI/New Wave)
+
+"EASE":
+  color: "#D35400" # Burnt Orange (Evaluation/Assessment)
+
+# --- Journals ---
+"TOSEM":
+  color: "#004d40" # Deep Teal (ACM Journal)
+
+"TSE":
+  color: "#00629B" # IEEE Official Blue (IEEE Journal)
+
+"EMSE":
+  color: "#228B22" # Forest Green (Empirical/Nature of data)
+
+"JSS":
+  color: "#8B4513" # Saddle Brown (Systems/Solid)
+
+"IST":
+  color: "#708090" # Slate Gray (Information/Tech)
+
+# --- Preprints ---
+"arXiv":
+  color: "#B31B1B" # Official arXiv Red
