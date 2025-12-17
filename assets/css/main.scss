@@ -32,4 +32,27 @@ $max-content-width: {{ site.max_width }};
     background-color: #f8f9fa; /* Optional: Light grey instead of pink */
     padding: 15px;
     border-radius: 5px;
+
+
+  /* Force the PDF link in bibliography to look like a button */
+.bibliography a[href$=".pdf"] {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #212529;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.bibliography a[href$=".pdf"]:hover {
+    color: #fff;
+    background-color: #212529;
 }
