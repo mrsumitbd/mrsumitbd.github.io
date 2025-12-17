@@ -7,7 +7,7 @@ nav: true
 nav_order: 7
 ---
 
-**Musfiqur Rahman** PhD Student, Data-driven Analysis of Software (DAS) Lab  
+**Musfiqur Rahman** PhD Candidate, Data-driven Analysis of Software (DAS) Lab  
 Department of Computer Science and Software Engineering  
 Concordia University
 
