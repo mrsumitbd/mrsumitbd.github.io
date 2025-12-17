@@ -50,7 +50,7 @@ $max-content-width: {{ site.max_width }};
     border-color: #212529 !important;
 }
 
-/* --- 2. THE BIBTEX BOX (Hidden Gently) --- */
+/* --- 2. THE BIBTEX BOX (Container) --- */
 div.bibtex {
     display: none; /* Hidden by default */
     margin-top: 10px;
@@ -58,24 +58,26 @@ div.bibtex {
     border-radius: 5px;
     padding: 10px;
     border: 1px solid #e9ecef;
-    
-    /* Slightly wider than the column */
     width: 105%;
     margin-left: -2.5%;
+    
+    /* APPLY WRAPPING TO THE BOX ITSELF */
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
 }
 
-/* --- 3. FORCE LINE BREAKS (The "Nuclear" Option) --- */
-/* We target every element inside the box to force wrapping */
-div.bibtex pre,
-div.bibtex code {
-    white-space: pre-wrap !important;    /* Force line breaks */
-    word-wrap: break-word !important;    /* Break long words */
-    word-break: break-word !important;   /* Ensure breaking works on all browsers */
-    font-family: monospace;
-    font-size: 0.8rem;
-    margin: 0;
-    overflow-x: auto;
-    display: block !important;           /* Force block display to respect wrapping */
+/* --- 3. THE WILDCARD WRAPPER (Target Everything Inside) --- */
+/* This forces every single element inside the box (pre, code, span, etc.) to wrap */
+div.bibtex * {
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+    font-family: monospace !important;
+    font-size: 0.8rem !important;
+    background-color: transparent !important; /* Prevent double-backgrounds */
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 /* --- 4. CLEANUP --- */
