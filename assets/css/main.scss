@@ -23,8 +23,8 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* --- 1. MATCHING BUTTONS (BIB & PDF) --- */
-/* We force both buttons to look identical: transparent with black outline */
+/* --- 1. UNIFORM BUTTONS (BIB & PDF) --- */
+/* We style the Bib button to match the PDF button exactly */
 .bibliography a.bibtex, 
 .bibliography a[href$=".pdf"] {
     display: inline-block !important;
@@ -51,9 +51,10 @@ $max-content-width: {{ site.max_width }};
     border-color: #212529 !important;
 }
 
-/* --- 2. THE BIBTEX BOX (Hidden by Default) --- */
+/* --- 2. THE BIBTEX BOX STYLING --- */
+/* NOTE: We removed 'display: none' here. We let the theme handle the toggling. 
+   We only apply visual styling (background, padding, etc.) */
 div.bibtex {
-    display: none; /* Hide it initially */
     margin-top: 10px;
     background-color: #f8f9fa;
     border-radius: 5px;
@@ -61,12 +62,7 @@ div.bibtex {
     border: 1px solid #e9ecef;
 }
 
-/* Support for themes that toggle a class instead of inline styles */
-div.bibtex.open {
-    display: block !important;
-}
-
-/* --- 3. FORMATTING THE TEXT --- */
+/* --- 3. THE TEXT FORMATTING (Line Breaks) --- */
 div.bibtex pre {
     white-space: pre-wrap !important; /* Force line breaks */
     word-wrap: break-word !important; /* Prevent horizontal scrolling */
@@ -77,6 +73,7 @@ div.bibtex pre {
 }
 
 /* --- 4. CLEANUP --- */
+/* Hide the empty grey box artifact */
 div.abbr:empty {
     display: none;
 }
