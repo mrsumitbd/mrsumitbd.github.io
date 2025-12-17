@@ -25,7 +25,6 @@ $max-content-width: {{ site.max_width }};
 ;
 
 /* --- 1. UNIFORM BUTTON STYLES (BIB & PDF) --- */
-/* We use !important here to override the theme's default black button style */
 .bibliography a.bibtex, 
 .bibliography a[href$=".pdf"] {
     display: inline-block !important;
@@ -36,6 +35,7 @@ $max-content-width: {{ site.max_width }};
     box-shadow: none !important;
     padding: 0.2rem 0.5rem !important;
     font-size: 0.8rem !important;
+    line-height: 1.5 !important; /* Ensures identical height */
     border-radius: 0.2rem !important;
     text-decoration: none !important;
     margin-right: 5px !important;
@@ -43,9 +43,10 @@ $max-content-width: {{ site.max_width }};
     cursor: pointer !important;
     text-align: center;
     vertical-align: middle;
+    min-width: 40px; /* Ensures consistent width feel */
 }
 
-/* Hover effects (Both turn black on hover) */
+/* Hover effects (Both turn black) */
 .bibliography a.bibtex:hover, 
 .bibliography a[href$=".pdf"]:hover {
     background-color: #212529 !important;
@@ -55,20 +56,21 @@ $max-content-width: {{ site.max_width }};
 }
 
 /* --- 2. THE BIBTEX CODE BOX (Hidden by default) --- */
-/* We target div.bibtex to style the container when it opens */
 div.bibtex {
+    /* CRITICAL FIX: Hide by default so it collapses! */
+    display: none; 
+    
     margin-top: 10px;
     background-color: #f8f9fa;
     border-radius: 5px;
     padding: 10px;
     
-    /* Width Fix: Stretches the box slightly wider than the text column */
+    /* Width Fix */
     width: 105%; 
     margin-left: -2.5%; 
 }
 
 /* --- 3. THE CODE TEXT FORMATTING --- */
-/* Forces line breaks and prevents horizontal scrolling */
 div.bibtex pre {
     white-space: pre-wrap !important;
     word-wrap: break-word !important;
@@ -79,7 +81,6 @@ div.bibtex pre {
 }
 
 /* --- 4. CLEANUP --- */
-/* Hides empty abbreviation boxes if they appear */
 div.abbr:empty {
     display: none;
 }
