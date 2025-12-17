@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-hello-world",
+        },{id: "post-is-code-really-more-39-natural-39-than-english",
+        
+          title: "Is Code Really More &#39;Natural&#39; Than English?",
+        
+        description: "We revisited the famous &#39;Natural Software&#39; hypothesis and found that syntax rules—not logic—drive most of the repetition in code.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/natural-software-revisited/";
+          
+        },
+      },{id: "post-hello-world",
         
           title: "Hello World",
         
