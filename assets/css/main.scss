@@ -1,9 +1,8 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter
 ---
 @charset "utf-8";
 
-// Dimensions
 $max-content-width: {{ site.max_width }};
 
 @import
@@ -24,7 +23,8 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* --- 1. UNIFORM BUTTON STYLES (BIB & PDF) --- */
+/* --- 1. MATCHING BUTTONS (BIB & PDF) --- */
+/* We force both buttons to look identical: transparent with black outline */
 .bibliography a.bibtex, 
 .bibliography a[href$=".pdf"] {
     display: inline-block !important;
@@ -32,48 +32,44 @@ $max-content-width: {{ site.max_width }};
     color: #212529 !important;
     background-color: transparent !important;
     border: 1px solid #212529 !important;
-    box-shadow: none !important;
     padding: 0.2rem 0.5rem !important;
     font-size: 0.8rem !important;
-    line-height: 1.5 !important; /* Ensures identical height */
     border-radius: 0.2rem !important;
     text-decoration: none !important;
     margin-right: 5px !important;
     margin-bottom: 5px !important;
     cursor: pointer !important;
+    min-width: 40px;
     text-align: center;
-    vertical-align: middle;
-    min-width: 40px; /* Ensures consistent width feel */
 }
 
-/* Hover effects (Both turn black) */
+/* Hover effects */
 .bibliography a.bibtex:hover, 
 .bibliography a[href$=".pdf"]:hover {
     background-color: #212529 !important;
     color: #fff !important;
     border-color: #212529 !important;
-    text-decoration: none !important;
 }
 
-/* --- 2. THE BIBTEX CODE BOX (Hidden by default) --- */
+/* --- 2. THE BIBTEX BOX (Hidden by Default) --- */
 div.bibtex {
-    /* CRITICAL FIX: Hide by default so it collapses! */
-    display: none; 
-    
+    display: none; /* Hide it initially */
     margin-top: 10px;
     background-color: #f8f9fa;
     border-radius: 5px;
     padding: 10px;
-    
-    /* Width Fix */
-    width: 105%; 
-    margin-left: -2.5%; 
+    border: 1px solid #e9ecef;
 }
 
-/* --- 3. THE CODE TEXT FORMATTING --- */
+/* Support for themes that toggle a class instead of inline styles */
+div.bibtex.open {
+    display: block !important;
+}
+
+/* --- 3. FORMATTING THE TEXT --- */
 div.bibtex pre {
-    white-space: pre-wrap !important;
-    word-wrap: break-word !important;
+    white-space: pre-wrap !important; /* Force line breaks */
+    word-wrap: break-word !important; /* Prevent horizontal scrolling */
     font-family: monospace;
     font-size: 0.8rem;
     margin: 0;
