@@ -25,7 +25,7 @@ latest_posts:
   scrollable: true 
   limit: 3
 
-nav: true
+nav: false
 order: 1
 ---
 
