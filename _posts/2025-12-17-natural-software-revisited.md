@@ -5,7 +5,7 @@ date: 2025-12-17 12:00:00
 description: We revisited the famous 'Natural Software' hypothesis and found that syntax rules—not logic—drive most of the repetition in code.
 tags: research software-engineering nlp
 categories: publications
-giscus_comments: true
+giscus_comments: false
 related_posts: true
 toc:
   sidebar: left
@@ -48,13 +48,16 @@ For software engineers and tool builders, this changes how we build intelligent 
 * [💻 Replication Package](https://www.dropbox.com/s/o5016gelg8tx5yx/README.md?dl=0)
 
 ---
-*Citation:*
-```bibtex
-@inproceedings{rahman2019natural,
+<hr>
+<details>
+  <summary><strong>Cite the paper</strong></summary>
+  <br>
+  <pre><code>@inproceedings{rahman2019natural,
   title={Natural software revisited},
   author={Rahman, Musfiqur and Palani, Dharani and Rigby, Peter C},
   booktitle={2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)},
   pages={37--48},
   year={2019},
   organization={IEEE}
-}
+}</code></pre>
+</details>
