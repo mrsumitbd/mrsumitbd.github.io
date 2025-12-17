@@ -24,27 +24,10 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* NUCLEAR FIX for BibTeX Line Breaks */
-/* Targets the container, the pre tag, and the code tag to ensure wrapping */
-.bibtex, .bibtex pre, .bibtex code {
-    white-space: pre-wrap !important;    /* Force text to wrap */
-    word-wrap: break-word !important;    /* Break long words if needed */
-    overflow-x: auto;                    /* Allow scrolling if absolutely necessary */
-    font-family: monospace;
-    font-size: 0.8rem;
-    background-color: #f8f9fa;
-    border-radius: 5px;
-    display: block;
-}
-
-/* Add padding to the box itself */
-div.bibtex {
-    margin-top: 10px;
-    padding: 10px;
-}
-
-/* Force the PDF link in bibliography to look like a button */
-.bibliography a[href$=".pdf"] {
+/* --- 1. Fix the Buttons (PDF & BibTeX) --- */
+/* Matches both the PDF button and the 'Bib' button to look the same */
+.bibliography a[href$=".pdf"], 
+.bibliography a.bibtex {
     display: inline-block;
     font-weight: 400;
     color: #212529;
@@ -59,10 +42,37 @@ div.bibtex {
     border-radius: 0.2rem;
     text-decoration: none;
     margin-right: 5px;
-    margin-top: 5px; /* Adds space if it wraps to a new line */
+    margin-bottom: 5px;
 }
 
-.bibliography a[href$=".pdf"]:hover {
+/* Hover effects for buttons */
+.bibliography a[href$=".pdf"]:hover, 
+.bibliography a.bibtex:hover {
     color: #fff !important;
     background-color: #212529;
+    text-decoration: none;
+}
+
+/* --- 2. Fix the BibTeX Code Box (Formatting & Width) --- */
+/* Target the inner text to wrap lines, but DO NOT force display:block (keeps it collapsible) */
+.bibtex pre {
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+    font-family: monospace;
+    font-size: 0.8rem;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+    /* WIDTH FIX: Negative margins to stretch beyond the text column if needed */
+    width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+/* --- 3. Hide the Grey Box Artifacts --- */
+/* Sometimes an empty container appears above; this hides empty abbrevs */
+div.abbr:empty {
+    display: none;
 }
