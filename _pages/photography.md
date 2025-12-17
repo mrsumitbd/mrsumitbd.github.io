@@ -6,6 +6,6 @@ nav: true
 nav_order: 5
 ---
 
-<h3>My Gallery</h3>
+### My Gallery
 
-{% include gallery path="assets/img/photography" %}
+*Photos coming soon...*
