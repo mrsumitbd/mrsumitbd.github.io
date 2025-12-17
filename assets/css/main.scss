@@ -24,6 +24,7 @@ $max-content-width: {{ site.max_width }};
 ;
 
 /* --- 1. MATCHING BUTTONS (BIB & PDF) --- */
+/* We force both buttons to look identical: transparent with black outline */
 .bibliography a.bibtex, 
 .bibliography a[href$=".pdf"] {
     display: inline-block !important;
@@ -50,32 +51,35 @@ $max-content-width: {{ site.max_width }};
     border-color: #212529 !important;
 }
 
-/* --- 2. THE BIBTEX BOX (Container) --- */
+/* --- 2. THE BIBTEX BOX (Hidden Gently) --- */
 div.bibtex {
-    /* Hiding it gently so the button's JS can open it */
-    display: none;
+    /* WE HIDE IT, BUT ALLOW JS TO OVERRIDE IT */
+    display: none; 
     
     margin-top: 10px;
     background-color: #f8f9fa;
     border-radius: 5px;
     padding: 10px;
     border: 1px solid #e9ecef;
+    
+    /* Make it slightly wider than the column */
     width: 105%;
     margin-left: -2.5%;
 }
 
-/* --- 3. FORCE LINE BREAKS (Targeted Fix) --- */
-/* We target the specific tags 'pre' and 'code' directly */
-div.bibtex pre,
-div.bibtex code {
-    white-space: pre-wrap !important;    /* Force text to wrap */
-    word-wrap: break-word !important;    /* Break long words */
-    word-break: break-all !important;    /* Aggressive break for long URLs/DOIs */
+/* If the theme adds an 'open' class, ensure it shows */
+div.bibtex.open {
+    display: block;
+}
+
+/* --- 3. FORMATTING THE TEXT --- */
+div.bibtex pre {
+    white-space: pre-wrap !important; /* Force line breaks */
+    word-wrap: break-word !important; /* Prevent horizontal scrolling */
     font-family: monospace;
     font-size: 0.8rem;
     margin: 0;
     overflow-x: auto;
-    background-color: transparent !important;
 }
 
 /* --- 4. CLEANUP --- */
