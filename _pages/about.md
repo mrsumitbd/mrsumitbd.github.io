@@ -12,7 +12,7 @@ profile:
     <p>Concordia University</p>
     <p>Montreal, QC, Canada</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}" in your .bib file
+selected_papers: false # includes a list of papers marked as "selected={true}" in your .bib file
 social: true # includes social icons at the bottom of the page
 
 announcements:
