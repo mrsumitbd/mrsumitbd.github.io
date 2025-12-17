@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-awards-and-services",
           title: "Awards and Services",
-          description: "My achievements and service.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/awards/";
