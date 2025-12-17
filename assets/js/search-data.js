@@ -69,6 +69,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/natural-software-revisited/";
           
         },
+      },{id: "post-why-your-ai-model-costs-more-on-a-different-machine",
+        
+          title: "Why Your AI Model Costs More on a Different Machine",
+        
+        description: "We tested 30 AI systems across different environments. The result? Your accuracy might stay safe, but your cloud bill won&#39;t.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/impact-of-env-configurations/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
