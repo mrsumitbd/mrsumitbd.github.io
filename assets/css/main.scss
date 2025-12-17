@@ -29,12 +29,12 @@ $max-content-width: {{ site.max_width }};
     white-space: pre-wrap !important;
     font-family: monospace;
     font-size: 0.85rem;
-    background-color: #f8f9fa; /* Optional: Light grey instead of pink */
+    background-color: #f8f9fa;
     padding: 15px;
     border-radius: 5px;
+} /* <--- THIS WAS MISSING */
 
-
-  /* Force the PDF link in bibliography to look like a button */
+/* Force the PDF link in bibliography to look like a button */
 .bibliography a[href$=".pdf"] {
     display: inline-block;
     font-weight: 400;
