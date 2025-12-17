@@ -6,8 +6,8 @@ subtitle: PhD Candidate in Software Engineering at <a href='https://www.concordi
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # Change to true if you want a round crop
+  image: 20250317_143649.jpg
+  image_circular: true # Change to true if you want a round crop
   more_info: >
     <p>Concordia University</p>
     <p>Montreal, QC, Canada</p>
