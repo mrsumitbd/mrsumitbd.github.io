@@ -23,3 +23,13 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* Force BibTeX to respect line breaks */
+.bibtex {
+    white-space: pre-wrap !important;
+    font-family: monospace;
+    font-size: 0.85rem;
+    background-color: #f8f9fa; /* Optional: Light grey instead of pink */
+    padding: 15px;
+    border-radius: 5px;
+}
