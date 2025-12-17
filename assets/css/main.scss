@@ -52,7 +52,9 @@ $max-content-width: {{ site.max_width }};
 
 /* --- 2. THE BIBTEX BOX (Container) --- */
 div.bibtex {
-    display: none; /* Hidden by default */
+    /* Hiding it gently so the button's JS can open it */
+    display: none;
+    
     margin-top: 10px;
     background-color: #f8f9fa;
     border-radius: 5px;
@@ -60,24 +62,20 @@ div.bibtex {
     border: 1px solid #e9ecef;
     width: 105%;
     margin-left: -2.5%;
-    
-    /* APPLY WRAPPING TO THE BOX ITSELF */
-    white-space: pre-wrap !important;
-    word-wrap: break-word !important;
 }
 
-/* --- 3. THE WILDCARD WRAPPER (Target Everything Inside) --- */
-/* This forces every single element inside the box (pre, code, span, etc.) to wrap */
-div.bibtex * {
-    white-space: pre-wrap !important;
-    word-wrap: break-word !important;
-    word-break: break-word !important;
-    font-family: monospace !important;
-    font-size: 0.8rem !important;
-    background-color: transparent !important; /* Prevent double-backgrounds */
-    border: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
+/* --- 3. FORCE LINE BREAKS (Targeted Fix) --- */
+/* We target the specific tags 'pre' and 'code' directly */
+div.bibtex pre,
+div.bibtex code {
+    white-space: pre-wrap !important;    /* Force text to wrap */
+    word-wrap: break-word !important;    /* Break long words */
+    word-break: break-all !important;    /* Aggressive break for long URLs/DOIs */
+    font-family: monospace;
+    font-size: 0.8rem;
+    margin: 0;
+    overflow-x: auto;
+    background-color: transparent !important;
 }
 
 /* --- 4. CLEANUP --- */
