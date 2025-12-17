@@ -24,16 +24,23 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* FORCE BibTeX Line Breaks - Target the 'pre' tag specifically */
-div.bibtex pre {
-    white-space: pre-wrap !important;
-    word-break: break-all !important; /* Force break on long text */
+/* NUCLEAR FIX for BibTeX Line Breaks */
+/* Targets the container, the pre tag, and the code tag to ensure wrapping */
+.bibtex, .bibtex pre, .bibtex code {
+    white-space: pre-wrap !important;    /* Force text to wrap */
+    word-wrap: break-word !important;    /* Break long words if needed */
+    overflow-x: auto;                    /* Allow scrolling if absolutely necessary */
     font-family: monospace;
     font-size: 0.8rem;
     background-color: #f8f9fa;
-    padding: 10px;
     border-radius: 5px;
-    margin: 0;
+    display: block;
+}
+
+/* Add padding to the box itself */
+div.bibtex {
+    margin-top: 10px;
+    padding: 10px;
 }
 
 /* Force the PDF link in bibliography to look like a button */
@@ -52,9 +59,10 @@ div.bibtex pre {
     border-radius: 0.2rem;
     text-decoration: none;
     margin-right: 5px;
+    margin-top: 5px; /* Adds space if it wraps to a new line */
 }
 
 .bibliography a[href$=".pdf"]:hover {
-    color: #fff;
+    color: #fff !important;
     background-color: #212529;
 }
