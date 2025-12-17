@@ -1,6 +1,6 @@
 - name: Email
   url: mailto:musfiqur.rahman@mail.concordia.ca
-  icon: fa-solid fa-envelope
+  icon: fas fa-envelope
   title: Email
 
 - name: CV
@@ -9,19 +9,19 @@
   title: CV
 
 - name: Google Scholar
-  # Replace with your actual Google Scholar ID
+  # Replace with your actual ID
   url: https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID
   icon: ai ai-google-scholar
   title: Google Scholar
 
 - name: LinkedIn
-  # Replace with your actual LinkedIn username
+  # Replace with your actual ID
   url: https://www.linkedin.com/in/YOUR_LINKEDIN_ID
-  icon: fa-brands fa-linkedin
+  icon: fab fa-linkedin
   title: LinkedIn
 
 - name: Twitter
-  # Replace with your actual Twitter handle
+  # Replace with your actual Handle
   url: https://twitter.com/YOUR_HANDLE
-  icon: fa-brands fa-twitter
+  icon: fab fa-twitter
   title: Twitter
