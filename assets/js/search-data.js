@@ -69,17 +69,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/natural-software-revisited/";
           
         },
-      },{id: "post-hello-world",
-        
-          title: "Hello World",
-        
-        description: "My first post.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/hello-world/";
-          
-        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
