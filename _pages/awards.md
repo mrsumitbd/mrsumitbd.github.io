@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Awards & Services
+title: Achievements
 permalink: /awards/
 description: 
 nav: true

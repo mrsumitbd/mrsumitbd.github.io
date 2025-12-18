@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: PhD Candidate in Software Engineering at <a href='https://www.concordia.ca/'>Concordia University</a> | <a href='https://se4ai.org/team/'>CREATE SE4AI</a> Trainee
+subtitle: PhD Candidate in Software Engineering at <a href='https://www.concordia.ca/'>Concordia University</a> & <a href='https://se4ai.org/team/'>CREATE SE4AI</a> Trainee
 
 profile:
   align: right
@@ -35,6 +35,6 @@ I am a PhD Candidate in Software Engineering at **Concordia University** in Mont
 
 Beyond research, I have a background in industry and education, having served as a Lead Data Science Instructor at **General Assembly** and an AI Engineer at **Pentavere**. I am a strong advocate for open science, sustainable technology, and education for all.
 
-When I am not coding (usually in **Python**) or writing, I am a proud father to a three-year-old. You can often find me exploring the streets of Toronto and Montreal with my camera, or planning my next pilgrimage to Mecca, Medina, or perhaps a culinary trip to Japan.
+When I am not coding (usually in **Python**) or writing, I am a proud father to a three-year-old. You can often find me exploring the streets of Toronto and Montreal with my camera, or planning a pilgrimage to Mecca, Medina, or perhaps a culinary trip to Japan.
 
 </div>
