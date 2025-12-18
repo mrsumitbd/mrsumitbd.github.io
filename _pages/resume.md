@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /experience/
+permalink: /resume/
 title: Experience
 nav: true
 nav_order: 4
