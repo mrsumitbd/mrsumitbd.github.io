@@ -81,7 +81,12 @@ ninja.data = [{
             },},{id: "news-website-is-live",
           title: 'Website is live!',
           description: "",
-          section: "News",},{id: "projects-flakyfix",
+          section: "News",},{id: "projects-codeprobe",
+          title: 'CodeProbe',
+          description: "A universal, interpretable detector for LLM-generated code.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/codeprobe/";
+            },},{id: "projects-flakyfix",
           title: 'FlakyFix',
           description: "A VS Code plug-in for real-time flaky test detection and repair.",
           section: "Projects",handler: () => {
