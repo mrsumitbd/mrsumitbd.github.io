@@ -3,7 +3,7 @@ layout: page
 title: FlakyFix
 description: A VS Code plug-in for real-time flaky test detection and repair.
 img: assets/img/flakyfix_thumb.jpg
-importance: 3
+importance: 1
 category: development
 ---
 
