@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: A collection of my research and development work.
 nav: true
-nav_order: 2
+nav_order: 6
 display_categories: [research, development]
 horizontal: false
 ---
@@ -12,27 +12,30 @@ horizontal: false
 <h2 class="category">Research</h2>
 <hr>
 
-<div class="projects">
-  <div class="grid">
+<div class="container-fluid">
+  <div class="row">
   {% for project in site.projects %}
     {% if project.category == 'research' %}
-      {% include projects.liquid %}
+      <div class="col-12 col-md-6 mb-4">
+        {% include projects.liquid %}
+      </div>
     {% endif %}
   {% endfor %}
   </div>
 </div>
 
 <br>
-<br>
 
 <h2 class="category">Development</h2>
 <hr>
 
-<div class="projects">
-  <div class="grid">
+<div class="container-fluid">
+  <div class="row">
   {% for project in site.projects %}
     {% if project.category == 'development' %}
-      {% include projects.liquid %}
+      <div class="col-12 col-md-6 mb-4">
+        {% include projects.liquid %}
+      </div>
     {% endif %}
   {% endfor %}
   </div>
