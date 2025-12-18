@@ -28,7 +28,7 @@ ninja.data = [{
           description: "My education and professional experience.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/experience/";
+            window.location.href = "/resume/";
           },
         },{id: "nav-blog",
           title: "Blog",
