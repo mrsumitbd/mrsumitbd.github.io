@@ -1,8 +1,11 @@
 ---
 layout: cv
-title: Resume
 permalink: /resume/
-description: My education and professional experience.
+title: Resume
 nav: true
 nav_order: 4
+cv_pdf: # leave blank or add filename (e.g., cv.pdf) if you upload one later
+description: My education and professional experience.
+toc:
+  sidebar: left
 ---
