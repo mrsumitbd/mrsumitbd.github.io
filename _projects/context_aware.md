@@ -17,7 +17,7 @@ This work builds upon my recent findings regarding the instability of AI-enabled
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/context_aware_demo.jpg" title="Context-Aware Suggestion" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/context_demo.jpg" title="Context-Aware Suggestion" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
