@@ -42,15 +42,17 @@ An error analysis revealed that **84%** of failures in real-world scenarios were
 ### Conclusion
 This paper is a wake-up call for researchers and developers. High scores on synthetic benchmarks do not guarantee readiness for production environments. As we move toward autonomous AI software engineers, we must move "beyond synthetic benchmarks" and start evaluating models on the messy, complex, and interdependent reality of actual software development.
 
-***
-
-### Citation
-
-```bibtex
-@article{rahman2025beyond,
-  title={Beyond Synthetic Benchmarks: Evaluating LLM Performance on Real-World Class-Level Code Generation},
-  author={Rahman, Musfiqur and Khatoonabadi, SayedHassan and Shihab, Emad},
-  journal={arXiv preprint arXiv:2510.26130},
-  year={2025},
-  url={[https://arxiv.org/abs/2510.26130](https://arxiv.org/abs/2510.26130)}
-}
+---
+<hr>
+<details>
+  <summary><strong>Cite the paper</strong></summary>
+  <br>
+  <pre><code>@inproceedings{rahman2019natural,<br>
+  title={Natural software revisited},<br>
+  author={Rahman, Musfiqur and Palani, Dharani and Rigby, Peter C},<br>
+  booktitle={2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)},<br>
+  pages={37--48},<br>
+  year={2019},<br>
+  organization={IEEE}
+}</code></pre>
+</details>
