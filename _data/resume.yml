@@ -1,0 +1,41 @@
+- title: Career & Education
+  type: time_table
+  items:
+    - title: Future Skills Board Member
+      institution: General Assembly
+      year: Nov 2025 - Present
+      description: Strategic advisory role for future skills development.
+
+    - title: PhD Candidate & Graduate Research Assistant
+      institution: Concordia University (DAS Lab)
+      year: May 2022 - Present
+      description: Researching LLM-generated code detection and software engineering.
+
+    - title: Subject Matter Expert (Data, Analytics & AI)
+      institution: General Assembly
+      year: Feb 2024 - Dec 2025
+      
+    - title: Lead Data Analytics Instructor
+      institution: General Assembly
+      year: Jan 2024 - Dec 2025
+
+    - title: Lead Data Science Instructor
+      institution: General Assembly
+      year: Feb 2020 - Jan 2024
+      
+    - title: AI Engineer
+      institution: Pentavere
+      year: Feb 2018 - Jan 2020
+      description: Developed AI solutions for healthcare data.
+
+    - title: Master's Student & Graduate Research Assistant
+      institution: Concordia University (CESEL)
+      year: Sep 2015 - Jan 2018
+      
+    - title: Graduate Research Assistant
+      institution: East West University, Dept of CSE
+      year: Jan 2015 - Aug 2015
+
+    - title: B.Sc. in Computer Science and Engineering
+      institution: East West University
+      year: Jan 2011 - Dec 2014
