@@ -269,7 +269,7 @@ scholar:
   locale: en
 
   # --- ADD THESE TWO LINES ---
-  sort_by: year, month
+  sort_by: day, month, year
   order: descending
 
   source: /_bibliography/
