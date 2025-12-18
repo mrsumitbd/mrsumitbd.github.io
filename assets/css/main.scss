@@ -104,3 +104,10 @@ div.abbr:empty {
 .contact-note {
     display: none;
 }
+
+/* --- MENU BAR SPACING --- */
+/* Increases space between items in the top menu */
+.navbar-nav .nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
