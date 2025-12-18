@@ -14,3 +14,12 @@ This project explores how **Context**—specifically environment configurations 
 * Can we fine-tune models to be "environment-aware," reducing the rate of build failures and runtime errors in AI-generated software?
 
 This work builds upon my recent findings regarding the instability of AI-enabled systems under different environment configurations.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/context_aware_demo.jpg" title="Context-Aware Suggestion" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A demonstration of context-aware code generation, where the model uses definitions from existing project files (<code>models.py</code>, <code>utils.py</code>) to provide a correct and complete suggestion.
+</div>
