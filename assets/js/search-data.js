@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-the-reality-check-why-ai-struggles-with-real-world-software-engineering",
+        },{id: "post-data-version-control-dvc-the-action-and-the-reaction",
+        
+          title: "Data Version Control (DVC): The Action and The Reaction",
+        
+        description: "An empirical study on how open-source developers actually use DVC and how it impacts their workflow.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/dvc-action-reaction/";
+          
+        },
+      },{id: "post-the-reality-check-why-ai-struggles-with-real-world-software-engineering",
         
           title: "The Reality Check: Why AI Struggles with Real-World Software Engineering",
         
