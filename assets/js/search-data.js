@@ -81,7 +81,12 @@ ninja.data = [{
             },},{id: "news-website-is-live",
           title: 'Website is live!',
           description: "",
-          section: "News",},{id: "projects-my-first-project",
+          section: "News",},{id: "projects-flakyfix",
+          title: 'FlakyFix',
+          description: "A VS Code plug-in for real-time flaky test detection and repair.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/flakyfix/";
+            },},{id: "projects-my-first-project",
           title: 'My First Project',
           description: "A description of your project.",
           section: "Projects",handler: () => {
