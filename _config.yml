@@ -262,11 +262,15 @@ display_categories: [] # these categories will be displayed on the front page of
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Rahman]
+  first_name: [Musfiqur]
 
   style: apa
   locale: en
+
+  # --- ADD THESE TWO LINES ---
+  sort_by: year, month
+  order: descending
 
   source: /_bibliography/
   bibliography: papers.bib
