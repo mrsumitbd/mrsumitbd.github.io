@@ -272,8 +272,6 @@ scholar:
   # Google Scholar Stats (for the update-citations.yml workflow)
   # ------------------------------------------------------------------
   id: wOpYvhAAAAAJ
-  scholar_stats: true
-
   # --- ADD THESE TWO LINES ---
   sort_by: day, month, year
   order: descending
@@ -295,6 +293,9 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
+
+scholar_stats: true
+
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
