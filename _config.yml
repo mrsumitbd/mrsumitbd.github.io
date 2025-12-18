@@ -645,3 +645,10 @@ jsonresume:
   - languages
   - interests
   - references
+
+# ------------------------------------------------------------------
+# Google Scholar Stats (for the update-citations.yml workflow)
+# ------------------------------------------------------------------
+scholar:
+  id: wOpYvhAAAAAJ
+  scholar_stats: true
