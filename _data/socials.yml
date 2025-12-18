@@ -9,19 +9,28 @@
   title: CV
 
 - name: Google Scholar
-  # Replace with your actual ID
-  url: https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID
+  # Go to your Scholar profile -> Copy the ID after "user=" in the URL
+  # Example: https://scholar.google.com/citations?user=drt_12345
+  url: https://scholar.google.ca/citations?user=wOpYvhAAAAAJ&hl=en
   icon: ai ai-google-scholar
   title: Google Scholar
 
 - name: LinkedIn
-  # Replace with your actual ID
-  url: https://www.linkedin.com/in/YOUR_LINKEDIN_ID
+  # Go to your LinkedIn profile -> Copy the URL
+  url: https://www.linkedin.com/in/musfiqur-rahman-37596444/
   icon: fab fa-linkedin
   title: LinkedIn
 
-- name: Twitter
-  # Replace with your actual Handle
-  url: https://twitter.com/YOUR_HANDLE
-  icon: fab fa-twitter
-  title: Twitter
+- name: GitHub
+  # Replace with your actual GitHub username
+  url: https://github.com/mrsumitbd
+  icon: fab fa-github
+  title: GitHub
+
+- name: X
+  # Replace with your actual handle
+  url: https://x.com/mrsumit2010
+  # "fab fa-x-twitter" is the official X logo. 
+  # If this shows up BLANK, change it back to "fab fa-twitter" (the bird).
+  icon: fab fa-x-twitter
+  title: X
