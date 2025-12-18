@@ -14,7 +14,7 @@ description: PhD Candidate in Software Engineering
 #   Copyright &copy; 2025 Sumit [Last Name].
 keywords: software engineering, se4ai, llm, testing, concordia
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: /assets/img/favicon.png # path to your favicon
 
 url: "https://mrsumitbd.github.io"
 baseurl: ""
