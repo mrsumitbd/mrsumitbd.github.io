@@ -86,6 +86,11 @@ ninja.data = [{
           description: "A universal, interpretable detector for LLM-generated code.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/codeprobe/";
+            },},{id: "projects-context-aware-code-generation",
+          title: 'Context-Aware Code Generation',
+          description: "Investigating the impact of environment on LLM code stability.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/context_aware/";
             },},{id: "projects-flakyfix",
           title: 'FlakyFix',
           description: "A VS Code plug-in for real-time flaky test detection and repair.",
