@@ -86,11 +86,6 @@ ninja.data = [{
           description: "A VS Code plug-in for real-time flaky test detection and repair.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/flakyfix/";
-            },},{id: "projects-my-first-project",
-          title: 'My First Project',
-          description: "A description of your project.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/my_project/";
             },},{
         id: 'social-',
         title: '',
