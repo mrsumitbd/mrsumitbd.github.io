@@ -5,8 +5,10 @@ date: 2025-12-18 14:46:00 -0500
 description: An empirical study on how open-source developers actually use DVC and how it impacts their workflow.
 tags: research mlops software-engineering
 categories: publications
-giscus_comments: true
-related_posts: false
+giscus_comments: false
+related_posts: true
+toc:
+  sidebar: left
 ---
 
 Machine Learning (ML) engineering has a "data problem." Unlike traditional software, where versioning code is solved by Git, ML systems depend heavily on large datasets that Git struggles to handle. Tools like **Data Version Control (DVC)** have emerged to bridge this gap, promising to manage data, models, and pipelines as seamlessly as code.
