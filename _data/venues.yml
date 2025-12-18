@@ -1,44 +1,48 @@
 # --- Conferences ---
 "ICSE":
-  color: "#003366" # Deep Navy (The flagship conference)
+  color: "#3d6cb9" # Lighter Navy (Royal Blue)
   
 "FSE":
-  color: "#663399" # Deep Purple (Distinguished, Foundation)
+  color: "#9b59b6" # Lighter Purple (Wisteria)
 
 "ASE":
-  color: "#C70039" # Crimson Red (Automated/Robotic feel)
+  color: "#e74c3c" # Lighter Red (Soft Crimson)
 
 "MSR":
-  color: "#4682B4" # Steel Blue (Repositories/Storage)
+  color: "#5dade2" # Lighter Steel Blue
 
 "ICSME":
-  color: "#008B8B" # Dark Cyan (Maintenance/Evolution cycle)
+  color: "#1abc9c" # Lighter Cyan (Turquoise)
 
 "SANER":
-  color: "#800000" # Maroon (Reengineering/Brick structure)
+  color: "#c0392b" # Lighter Maroon (Pomegranate)
 
 "CAIN":
-  color: "#D63384" # Neon Pink (AI/New Wave)
+  color: "#fd79a8" # Lighter Neon Pink
 
 "EASE":
-  color: "#D35400" # Burnt Orange (Evaluation/Assessment)
+  color: "#f39c12" # Lighter Orange
 
 # --- Journals ---
 "TOSEM":
-  color: "#004d40" # Deep Teal (ACM Journal)
+  color: "#16a085" # Lighter Teal (Green Sea)
 
 "TSE":
-  color: "#00629B" # IEEE Official Blue (IEEE Journal)
+  color: "#3498db" # Lighter Blue (Sky Blue)
 
 "EMSE":
-  color: "#228B22" # Forest Green (Empirical/Nature of data)
+  color: "#2ecc71" # Lighter Forest Green (Emerald)
 
 "JSS":
-  color: "#8B4513" # Saddle Brown (Systems/Solid)
+  color: "#e67e22" # Lighter Brown/Orange (Carrot)
 
 "IST":
-  color: "#708090" # Slate Gray (Information/Tech)
+  color: "#95a5a6" # Lighter Slate Gray (Concrete)
 
 # --- Preprints ---
 "arXiv":
-  color: "#B31B1B" # Official arXiv Red
+  color: "#ff5252" # Lighter Red (Tomato)
+
+# --- Thesis ---
+"Thesis":
+  color: "#a569bd" # Light Purple/Lavender
