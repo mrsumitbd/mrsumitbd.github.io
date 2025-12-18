@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-awards-amp-services",
-          title: "Awards &amp; Services",
+        },{id: "nav-achievements",
+          title: "Achievements",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-is-code-really-more-39-natural-39-than-english",
+        },{id: "post-the-reality-check-why-ai-struggles-with-real-world-software-engineering",
+        
+          title: "The Reality Check: Why AI Struggles with Real-World Software Engineering",
+        
+        description: "A deep dive into my latest paper on the gap between synthetic benchmarks and real-world code generation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/beyond-synthetic-benchmarks/";
+          
+        },
+      },{id: "post-is-code-really-more-39-natural-39-than-english",
         
           title: "Is Code Really More &#39;Natural&#39; Than English?",
         
