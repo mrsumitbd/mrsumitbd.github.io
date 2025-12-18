@@ -2,10 +2,9 @@
 layout: page
 title: FlakyFix
 description: A VS Code plug-in for real-time flaky test detection and repair.
-img: assets/img/flakyfix_thumbnail.jpg
+img: assets/img/flakyfix_thumb.jpg
 importance: 1
-category: research
-related_publications: false
+category: development
 ---
 
 **FlakyFix** is an automated tool designed to help developers identify and fix flaky tests directly within their development environment.
@@ -32,4 +31,4 @@ This project is currently under active development. The objective is to release 
 
 ***
 
-*View the code on [GitHub](https://github.com/YOUR_USERNAME/FlakyFix).*
+*View the code on [GitHub](https://github.com/mrsumitbd/FlakyFix).*
