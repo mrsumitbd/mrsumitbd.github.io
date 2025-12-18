@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: PhD Candidate in Software Engineering at <a href='https://www.concordia.ca/'>Concordia University</a>.
+subtitle: PhD Candidate in Software Engineering at <a href='https://www.concordia.ca/'>Concordia University</a> | <a href='https://se4ai.org/team/'>CREATE SE4AI</a> Trainee
 
 profile:
   align: right
