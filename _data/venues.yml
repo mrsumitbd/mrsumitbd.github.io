@@ -46,3 +46,7 @@
 # --- Thesis ---
 "Thesis":
   color: "#a569bd" # Light Purple/Lavender
+
+# --- Other ---
+"Other":
+  color: "#f1c40f" # Lighter Yellow (Sunflower)
