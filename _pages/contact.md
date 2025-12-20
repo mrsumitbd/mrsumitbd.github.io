@@ -7,19 +7,16 @@ nav: true
 nav_order: 7
 ---
 
-**Musfiqur Rahman** PhD Candidate, Data-driven Analysis of Software (DAS) Lab  
+**Musfiqur Rahman**
+PhD Candidate, Data-driven Analysis of Software (DAS) Lab  
 Department of Computer Science and Software Engineering  
 Concordia University
-
 <br>
-
 **Address:** Room ER 11.57  
 2155 Guy Street  
 Montréal, QC H3H 2L9  
 Canada
-
 <br>
-
 **Email:** musfiqur [dot] rahman [at] mail [dot] concordia [dot] ca
 
 ---
