@@ -35,6 +35,6 @@ I am a PhD Candidate in Software Engineering at **Concordia University** in Mont
 
 Beyond research, I have a background in industry and education, having served as a Lead Data Science Instructor at **General Assembly** and an AI Engineer at **Pentavere**. I am a strong advocate for open science, sustainable technology, and education for all.
 
-When I am not coding (usually in **Python**) or writing, you might find me chasing after my three-year-old. You can also often spot me exploring the streets of Toronto and Montreal, camera in hand. Other times, I’m likely at a cozy café with my beautiful wife, taking a break from the joys and exhaustion of parenting, though we usually end up talking about our little one. If I’m alone, I might be at that same café, daydreaming about a pilgrimage to Mecca or Medina or a future culinary adventure in Japan with my family.
+When I am not coding (usually in **Python**) or writing, you might find me chasing after my three-year-old. You can also often spot me exploring the streets of Toronto and Montreal, camera in hand. Other times, I’m likely at a cozy café with my beautiful wife, taking a break from the joys and exhaustion of parenting, though we usually end up talking about our little one. If I’m alone, I might be at that same café, daydreaming about a pilgrimage to Mecca and Medina or a future culinary adventure in Japan with my family.
 
 </div>
