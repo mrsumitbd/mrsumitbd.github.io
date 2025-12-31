@@ -120,11 +120,11 @@ ninja.data = [{
           description: "Investigating the impact of environment on LLM code stability.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/context_aware/";
-            },},{id: "projects-flakyfix",
-          title: 'FlakyFix',
-          description: "A VS Code plug-in for real-time flaky test detection and repair.",
+            },},{id: "projects-craft",
+          title: 'CRAFT',
+          description: "Contextual Repair Agent for Flaky Tests - A Multi-Agent VS Code extension.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/flakyfix/";
+              window.location.href = "/projects/craft/";
             },},{
         id: 'social-',
         title: '',
