@@ -20,6 +20,7 @@ nav_order: 3
 ## Services
 
 ### Program Committee
+* **ICSME 2026** - Tool Demonstration and Data Showcase Track
 * **CAIN 2026** – Poster Track
 * **ICSE 2026** – Student Research Competition (SRC)
 
@@ -29,6 +30,6 @@ nav_order: 3
 * **MSR 2024**
 
 ### Journal Referee & Reviewer
-* **ACM Transactions on Software Engineering and Methodology (TOSEM)** – *Referee* (January 2025)
-* **ACM Transactions on Software Engineering and Methodology (TOSEM)** – *Referee* (September 2024)
+* **Empirical Software Engineering (EMSE)** - Reviewer (April 2026)
+* **ACM Transactions on Software Engineering and Methodology (TOSEM)** – *Reviewer* (September 2024, January 2025)
 * **Montreal AI Symposium** – *Reviewer* (2022)
