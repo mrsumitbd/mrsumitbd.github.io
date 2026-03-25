@@ -30,6 +30,6 @@ nav_order: 3
 * **MSR 2024**
 
 ### Journal Referee & Reviewer
-* **Empirical Software Engineering (EMSE)** - Reviewer (April 2026)
+* **International Journal of Empirical Software Engineering (EMSE)** - *Reviewer* (April 2026)
 * **ACM Transactions on Software Engineering and Methodology (TOSEM)** – *Reviewer* (September 2024, January 2025)
 * **Montreal AI Symposium** – *Reviewer* (2022)
