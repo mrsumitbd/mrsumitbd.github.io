@@ -3,7 +3,7 @@ layout: page
 title: CRAFT
 description: Contextual Repair Agent for Flaky Tests - A Multi-Agent VS Code extension.
 img: assets/img/flakyfix_thumb.jpg
-importance: 1
+importance: 2
 category: development
 ---
 

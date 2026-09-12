@@ -3,7 +3,7 @@ layout: page
 title: Context-Aware Code Generation
 description: Investigating the impact of environment on LLM code stability.
 img: assets/img/context_thumb.jpg
-importance: 2
+importance: 3
 category: research
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: CodeProbe
 description: A universal, interpretable detector for LLM-generated code.
 img: assets/img/codeprobe_thumb.jpg
-importance: 1
+importance: 2
 category: research
 ---
 
