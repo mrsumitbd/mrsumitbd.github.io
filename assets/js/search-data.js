@@ -134,6 +134,11 @@ ninja.data = [{
           description: "Contextual Repair Agent for Flaky Tests - A Multi-Agent VS Code extension.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/craft/";
+            },},{id: "projects-sieve",
+          title: 'SIEVE',
+          description: "A parameterized GitHub corpus builder for contamination-free, post-cutoff code evaluation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sieve/";
             },},{
         id: 'social-',
         title: '',
