@@ -31,7 +31,7 @@ nav_order: 3
 * **MSR 2024**
 
 ### Journal Reviewer
-* **International Journal of Empirical Software Engineering (EMSE)** - April 2026
+* **International Journal of Empirical Software Engineering (EMSE)** - April 2026, September 2026
 * **ACM Transactions on Software Engineering and Methodology (TOSEM)** – September 2024, January 2025
 
 ### Miscellaneous
