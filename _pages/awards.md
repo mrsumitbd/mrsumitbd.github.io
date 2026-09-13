@@ -20,6 +20,7 @@ nav_order: 3
 ## Services
 
 ### Program Committee
+* **MSR 2027** – Research Track
 * **ICSME 2026** - Tool Demonstration and Data Showcase Track
 * **CAIN 2026** – Poster Track
 * **ICSE 2026** – Student Research Competition (SRC)
