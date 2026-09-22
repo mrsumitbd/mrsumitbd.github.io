@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Actively seeking industry and research roles in ML/AI Engineering, Applied Science, and Data Science. Open to opportunities across Canada and the US.
+~~Actively seeking industry and research roles in ML/AI Engineering, Applied Science, and Data Science. Open to opportunities across Canada and the US.~~
