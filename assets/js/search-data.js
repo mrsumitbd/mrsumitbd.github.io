@@ -107,8 +107,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-paper-accepted-and-published-at-ease-2026-openclassgen-a-large-scale-open-dataset-of-llm-generated-python-classes-doi-10-1145-3816483-3816547",
-          title: 'Paper accepted and published at EASE 2026 — OpenClassGen: A Large-Scale Open Dataset...',
+            },},{id: "news-paper-accepted-and-published-at-ease-2026-openclassgen-a-large-scale-corpus-of-real-world-python-classes-for-llm-research-doi-10-1145-3816483-3816547",
+          title: 'Paper accepted and published at EASE 2026 — OpenClassGen: A Large-Scale Corpus of...',
           description: "",
           section: "News",},{id: "news-presented-at-the-doctoral-symposium-at-ease-2026-talk-title-from-observation-to-explanation-mechanistic-interpretability-of-llm-generated-code-for-principled-repair",
           title: 'Presented at the Doctoral Symposium at EASE 2026. Talk title: “From Observation to...',
