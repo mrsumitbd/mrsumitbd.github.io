@@ -22,4 +22,4 @@ Python, Streamlit, HuggingFace, tree-sitter
 
 *View the code on [GitHub](https://github.com/mrsumitbd/sieve).*
 *Try the live demo on [HuggingFace Spaces](https://mrahman2025-sieve.hf.space).*
-*Paper to appear at **MSR 2027** (Data & Tool Showcase Track).*
+*Paper submitted to **ICSE 2027** (Tool Track).*

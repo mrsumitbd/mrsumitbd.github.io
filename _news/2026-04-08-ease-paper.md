@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted and published at EASE 2026 — OpenClassGen: A Large-Scale Open Dataset of LLM-Generated Python Classes. DOI: 10.1145/3816483.3816547.
+Paper accepted and published at EASE 2026 — OpenClassGen: A Large-Scale Corpus of Real-World Python Classes for LLM Research. DOI: 10.1145/3816483.3816547.

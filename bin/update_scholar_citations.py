@@ -8,28 +8,31 @@ from scholarly import scholarly
 
 
 def load_scholar_user_id() -> str:
-    """Load the Google Scholar user ID from the configuration file."""
-    config_file = "_data/socials.yml"
-    if not os.path.exists(config_file):
-        print(
-            f"Configuration file {config_file} not found. Please ensure the file exists and contains your Google Scholar user ID."
-        )
-        sys.exit(1)
+    """Load the Google Scholar user ID from the site configuration.
+
+    Looks for ``scholar_userid`` in _data/socials.yml (upstream al-folio layout,
+    where the file is a mapping), then falls back to ``scholar.id`` in _config.yml.
+    """
     try:
-        with open(config_file, "r") as f:
-            config = yaml.safe_load(f)
-        scholar_user_id = config.get("scholar_userid")
-        if not scholar_user_id:
-            print(
-                "No 'scholar_userid' found in the configuration file. Please add 'scholar_userid' to _data/socials.yml."
-            )
-            sys.exit(1)
-        return scholar_user_id
+        if os.path.exists("_data/socials.yml"):
+            with open("_data/socials.yml", "r") as f:
+                socials = yaml.safe_load(f)
+            if isinstance(socials, dict) and socials.get("scholar_userid"):
+                return socials["scholar_userid"]
+        if os.path.exists("_config.yml"):
+            with open("_config.yml", "r") as f:
+                config = yaml.safe_load(f)
+            scholar_user_id = (config.get("scholar") or {}).get("id")
+            if scholar_user_id:
+                return scholar_user_id
     except yaml.YAMLError as e:
-        print(
-            f"Error parsing YAML file {config_file}: {e}. Please check the file for correct YAML syntax."
-        )
+        print(f"Error parsing YAML configuration: {e}. Please check the file for correct YAML syntax.")
         sys.exit(1)
+    print(
+        "No Google Scholar user ID found. Add 'scholar_userid' to _data/socials.yml "
+        "(if it is a mapping) or set 'scholar.id' in _config.yml."
+    )
+    sys.exit(1)
 
 
 SCHOLAR_USER_ID: str = load_scholar_user_id()
