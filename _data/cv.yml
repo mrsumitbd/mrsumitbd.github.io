@@ -1,36 +1,56 @@
 - title: Career & Education
   type: time_table
   contents:
-    - title: Future Skills Board Member
-      institution: General Assembly
-      year: Nov 2025 - Present
-      description: Strategic advisory role for future skills development.
-
     - title: PhD Candidate & Graduate Research Assistant
       institution: Concordia University (DAS Lab)
       year: May 2022 - Present
-      description: Researching LLM-generated code detection.
+      description:
+        - Research on mechanistic interpretability, evaluation, generation, and detection of LLMs for code.
+        - NSERC SE4AI CREATE Program Trainee.
 
-    - title: Subject Matter Expert (Data, Analytics & AI)
-      institution: General Assembly
-      year: Feb 2024 - Present
+    - title: Senior Research Engineer (Contract)
+      institution: Pixis
+      year: Sep 2026 - Oct 2026
+      description:
+        - Research engineer on ml.ai, Pixis's agentic coding platform, focused on agent quality and evaluation.
+        - Optimized the platform's system prompts to improve the coding agent's behaviour and output quality.
+        - Designed and ran benchmarks to evaluate the platform's end-to-end performance and guide improvements.
 
-    - title: Lead Data Analytics Instructor
+    - title: Enterprise Solutions Architect & AI Systems Evaluator
       institution: General Assembly
-      year: Jan 2024 - Dec 2025
+      year: Nov 2025 - Jul 2026
+      description:
+        - Designed and ran evaluation protocols for GAIA, GA's agentic course-content generation system, and documented failure modes for engineering.
+        - Client-facing technical lead scoping custom AI learning solutions for enterprise clients (Adobe, Diageo, Rightmove, Northwest Education & Training).
 
-    - title: Lead Data Science Instructor
+    - title: Future Skills Board Member
       institution: General Assembly
-      year: Feb 2020 - Jan 2024
+      year: Nov 2025 - Jul 2026
+      description:
+        - Strategic advisory role for future skills development.
+
+    - title: Subject Matter Expert & Lead Educator, Data and AI
+      institution: General Assembly
+      year: Feb 2020 - Nov 2025
+      description:
+        - Designed and delivered curriculum across Data Science, Data Analytics, Data Engineering, and GenAI programs.
+        - Trained 1,000+ professionals across 50+ North American cohorts; recruited, trained, and mentored junior instructors.
+
+    - title: Data Scientist (Part-time)
+      institution: SGS
+      year: May 2023 - Jan 2024
+      description:
+        - Built and validated ARIMA, SARIMA, SARIMAX, and Prophet time-series forecasting models on Azure ML to support financial planning.
 
     - title: AI Engineer
       institution: Pentavere
-      year: Feb 2018 - Jan 2020
-      description: Developed AI solutions for healthcare data.
+      year: Feb 2018 - Feb 2020
+      description:
+        - Founding AI engineer; built and deployed production clinical NLP systems (NER, classification, OCR, ICD-10 coding) over millions of unstructured health records.
 
     - title: Master's Student & Graduate Research Assistant
       institution: Concordia University (CESEL)
-      year: Sep 2015 - Jan 2018
+      year: Sep 2015 - Apr 2018
 
     - title: Graduate Research Assistant
       institution: East West University, Dept of CSE
