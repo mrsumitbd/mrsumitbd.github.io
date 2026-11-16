@@ -21,6 +21,7 @@ nav_order: 3
 
 ### Program Committee
 * **MSR 2027** – Research Track
+* **CAIN 2027** – Poster and Demonstration Track
 * **ICSME 2026** - Tool Demonstration and Data Showcase Track
 * **CAIN 2026** – Poster Track
 * **ICSE 2026** – Student Research Competition (SRC)
